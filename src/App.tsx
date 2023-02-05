@@ -25,6 +25,8 @@ function App() {
 
   const resetButton = () => {
     setSecond(0);
+    setMinutes(0);
+    setHour(0);
     clearInterval(clearedTime);
     setDisable(false);
   };
